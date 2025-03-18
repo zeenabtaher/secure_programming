@@ -14,9 +14,11 @@ from tkinter import filedialog
 root=Tk()
 root.geometry("200x160")
 
-##Function
+##Function to choose image file
 def encrypt_image():
-    print("test")
+    file1=filedialog.askopenfile(mode='r', filetype=[('jpg file','*.jpg')]) ##TODO add png file
+    if file1 is not None:
+        print(file1)
 
 ##Button to open file dialog box for submit key value
 b1=Button(root,text="encrypt", command=encrypt_image)
