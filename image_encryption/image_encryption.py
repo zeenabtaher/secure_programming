@@ -4,6 +4,17 @@ Created on Tue Mar 18 18:46:46 2025
 
 @author: zeena
 
+Image encryption
+
+Image encryption is used in every day life to secure critical information between sender and recipient.
+
+-----------------------------------------------------------------------------------
+This program will encrypt image by asking encryption key and image for user.
+Program will encrypt given image and user can check fucktionality when opening the given image. 
+Image will not open correctly before decryption.
+
+After encryption, user can do decryption by giving the same encryption key. 
+After input decryption key, user can open image normally.
 
 """
 ##Importing tkinter for using UI
